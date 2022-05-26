@@ -16,7 +16,7 @@ public class Main {
             int digit = number % 10;
             sum += digit;
 
-            //drop the least significant digit
+            //drop the least-significant digit
             number /= 10;
         }
         return sum;
